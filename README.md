@@ -56,10 +56,6 @@ Tested hardware: [ESP32-S3 Touch AMOLED 2.06](https://www.waveshare.com/wiki/ESP
 - DoomGeneric
 
 ## DoomGeneric Setup
-Edit `doomgeneric.h` and set:
-
-```cpp
-#define DOOMGENERIC_RESX 320
-#define DOOMGENERIC_RESY 200
+Need help? Text me on (https://www.instagram.com/tsixom)
 
 
