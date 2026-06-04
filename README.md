@@ -6,6 +6,10 @@
 ![Display](https://img.shields.io/badge/Display-AMOLED-green)
 ![Engine](https://img.shields.io/badge/Engine-DoomGeneric-red)
 
+## Support / Get It
+
+If you like this project, you can support me on [Ko-fi](https://ko-fi.com/s/c68a796d12) ☕
+
 # Picker
 ![Watch UI](IMG1.jpg)
 
@@ -58,6 +62,4 @@ Edit `doomgeneric.h` and set:
 #define DOOMGENERIC_RESX 320
 #define DOOMGENERIC_RESY 200
 
-## Support / Get It
 
-If you like this project, you can support me on [Ko-fi](https://ko-fi.com/s/c68a796d12) ☕
