@@ -10,14 +10,17 @@
 ![Watch UI](IMG1.jpg)
 
 ## Features
+- Classic DOOM gameplay using DoomGeneric
 - IWAD and PWAD support
 - Custom WAD launcher
-- Per-WAD save folders
+- Per-WAD save folders (auto-created)
 - Touch drag joystick
 - Physical button controls
-- ES8311 audio support
+- ES8311 **SFX support only** (audio playback can be added if requested)
 - AXP2101 battery HUD
-- Adjustable volume, brightness, battery HUD, and sensitivity
+- Adjustable volume, brightness, battery HUD, and control sensitivity
+- IMU wrist-tilt motion controls
+- Save-name macro for quick saves
 
 # Demo
 ![Watch UI](15607.gif)
@@ -25,7 +28,7 @@
 ![Watch UI](15609.gif)
 
 ## Hardware
-https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06
+Tested hardware: [ESP32-S3 Touch AMOLED 2.06](https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06)
 
 ## Controls
 
@@ -39,24 +42,22 @@ https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06
 | Menu / Back | PWR button |
 | Auto save-name | BOOT + PWR |
 
-## SD Card Layout
+## Required Libraries
+- Arduino_GFX_Library
+- Arduino_DriveBus_Library
+- ESP_I2S
+- XPowersLib
+- Preferences
+- SD_MMC
+- DoomGeneric
 
-```text
-SDCARD/
-├── doom1.wad
-├── doom2.wad
-├── plutonia.wad
-├── tnt.wad
-└── doomsaves/
-    ├── doom1/
-    ├── doom2/
-    ├── plutonia/
-    └── tnt/
+## DoomGeneric Setup
+Edit `doomgeneric.h` and set:
 
-## Performance Notes
-- RGB565 rendering pipeline
-- Precomputed scaling maps
-- Shared display initialization
-- Minimal in-game overlays
-- Optimized touch and control polling
+```cpp
+#define DOOMGENERIC_RESX 320
+#define DOOMGENERIC_RESY 200
 
+## Support / Get It
+
+If you like this project, you can support me on [Ko-fi](https://ko-fi.com/s/c68a796d12) ☕
