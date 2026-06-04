@@ -3,4 +3,4 @@ A touch-friendly WAD launcher for DoomWatch that automatically scans the SD card
 ![Watch UI](file_15607.gif)
 ![Watch UI](file_15608.gif)
 ![Watch UI](file_15609.gif)
-IMG1.jpg
+![Watch UI](file_IMG1.jpg)
