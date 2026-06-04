@@ -1,6 +1,6 @@
 # DOOM Watch
 
-> Play classic DOOM on an ESP32 AMOLED smartwatch with touch controls, motion controls, audio, battery monitoring, and WAD management.
+> Play classic DOOM and other .wad games on an ESP32 AMOLED smartwatch with touch controls, motion controls, audio, battery monitoring, and WAD management.
 
 ![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
 ![Display](https://img.shields.io/badge/Display-AMOLED-green)
